@@ -16,6 +16,7 @@ def get_html(url):
 
 def get_all(data):
     print("111")
+	print("111")
     for info in data:
         #print(str(info))
         names = (info.find("li"))
